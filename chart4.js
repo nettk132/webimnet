@@ -4,17 +4,17 @@ const radar =new Chart(ctx4, {
   type: 'radar',
   data: {
     labels: [
-      'Eating',
-      'Drinking',
-      'Sleeping',
-      'Designing',
-      'Coding',
-      'Cycling',
-      'Running'
+      'Japanese',
+      'English',
+      'Spanish',
+      'French',
+      'Lao',
+      'Thailand',
+      
     ],
     datasets:  [{
-      label: 'ปีที่1',
-      data: [50, 20, 40, 60, 60, 30, 50],
+      label: 'ม.ปลาย',
+      data: [60, 40, 10, 10, 80, 100],
       fill: true,
       backgroundColor: 'rgba(255, 99, 132, 0.2)',
       borderColor: 'rgb(255, 99, 132)',
@@ -24,8 +24,8 @@ const radar =new Chart(ctx4, {
       pointHoverBorderColor: 'rgb(255, 99, 132)'
     },
     {
-      label: 'ปีที่2',
-      data: [55, 40, 70, 70, 75, 40, 55],
+      label: 'มหาลัย',
+      data: [70, 50, 0, 0, 60, 100],
       fill: true,
       backgroundColor: 'rgba(54, 162, 235, 0.2)',
       borderColor: 'rgb(54, 162, 235)',
