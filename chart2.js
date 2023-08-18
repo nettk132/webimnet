@@ -3,19 +3,21 @@ const ctx2 = document.getElementById('doughnut');
 const doughnut =new Chart(ctx2, {
   type: 'doughnut',
   data: {
-    labels: ['java', 'css', 'html'],
+    labels: ['java', 'css', 'html', 'python'],
     datasets: [{
-      label: 'ความถนัดในภาษา',
-      data: [20,40,45],
+      label: 'ความสามารถ',
+      data: [10,30,45,15],
       backgroundColor: [
         'rgb(255, 112, 119,0.7)',
         'rgb(255, 146, 62,0.7)',
         'rgb(95, 146, 62,0.7)',
+        'rgb(255, 205, 86)'
       ],
       backgroundColor: [
         'rgb(255, 112, 119,0.7)',
         'rgb(255, 146, 62,0.7)',
         'rgb(95, 146, 62,0.7)',
+        'rgb(255, 205, 86)'
       ],
       borderWidth: 3
     }]

@@ -1,7 +1,7 @@
 const ctx = document.getElementById('barchart');
         
 const barchart =new Chart(ctx, {
-  type: 'bar',
+  type: 'line',
   data: {
     labels: ['มัธยมศึกษาตอนปลาย 4','มัธยมศึกษาตอนปลาย 5','มัธยมศึกษาตอนปลาย 6','ปี1 เทอม 1', 'ปี1 เทอม 2'],
     datasets: [{
