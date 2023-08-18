@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ิ.boby{
+  background: #b655e0;
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  min-height: 400vh;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    gap: 200px;
+}
+.container1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ 
+  padding: 5%;
+  gap: 200px;
+}
+.container-box{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%; 
+    margin-left: 20%;
+    padding: 5%;
+    gap: 200px;
+
+}
+.chart{
+   padding: 10rem;
+   border: 3px solid #fc0000 ;
+   border-radius: 1rem;
+   background:#251c35;
+   box-shadow:0 0 16px rgba(0, 0, 0, 0.8) ;
+}
+.chart1{
+  padding: 10rem;
+  border: 3px solid #fc0000 ;
+  border-radius: 1rem;
+  background:#251c35;
+  box-shadow:0 0 16px rgba(0, 0, 0, 0.8) ;
+}
+.photo img{
+  position: absolute;
+  height: 150vh;
+  width: 130vh;
+  top: -40%;
+  margin-left: -13%;
+
+
+}
+.chart-container {
+    max-width: 400px; /* ปรับความกว้างตามต้องการ */
+    margin: 0 auto;
+  }
+  .center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* แนวตั้งจนถึงขอบหน้าจอ */
+  }
+  .center-image img {
+    max-width: 50%; /* กำหนดความกว้างของรูปภาพ */
+    height: auto;
+  }
